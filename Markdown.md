@@ -53,6 +53,16 @@ Logik: "!" + "Alternative Bezeichnung (Text)" + "Link zum Bild"
 
 ### Source Code
 
+\```Sprache  
+Befehl  
+\```
+
+##### z.B. für HTML:
+
+\```html  
+\<h1>Headline\</h1>\
+\```
+
 ```html
 <h1>Dies ist eine Änderung</h1>
 ```
