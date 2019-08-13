@@ -1,20 +1,3 @@
-# Git
-
-## Ressources
-
-1. [Einfach Einstieg in Git](https://rogerdudler.github.io/git-guide/index.de.html)
-
-## Prozesse
-
-### Arbeitsphasen
-
-1. Lokal
-   1. In VSCode speichern
-   1. In der Stage speichern
-   1. In den Baum committen
-1. Online
-   1. Auf GitHub pushen
-
 ### SSH-Key erstellen
 
 ssh-keygen -t rsa -b 4096 -C "julian_toscani@gmx.de"  
@@ -38,6 +21,3 @@ cat id_rsa.pub
 - `cd` (change directory) verzeichnis wechseln
 - `cd ..` ein Verzeichnis zurück
 - `mkdir` neues Verzeichnis erstellen
-- `git clone "Repo Link"` Repository runterladen
-
-[
