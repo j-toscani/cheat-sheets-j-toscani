@@ -10,17 +10,22 @@
 ### Textformat
 
 ```Markdown
-_lorem_         "Schrift kursiv"
-**lorem**       "Schrift fett"
-\* **lorem** \* "Format entfernen"
+_lorem_ oder        "Schrift kursiv"
+*lorem*
+
+__lorem__ oder      "Schrift fett"
+**lorem**
+
+\* \*               "Format entfernen"
 ```
 
 ### Aufzählungen
 
 ```Markdown
--   "geordnete Liste"
-1.  "ungeordnete Liste"
-  - "doppelt einrücken für nächste Ebene"
+-   "ungeordnete Liste"
+1.  "geordnete Liste"
+  - oder "doppelt einrücken für nächste Ebene"
+  2.
 ```
 
 ### Links
