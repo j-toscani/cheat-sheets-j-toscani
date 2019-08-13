@@ -15,29 +15,13 @@
 1. Online
    1. Auf GitHub pushen
 
-### SSH-Key erstellen
-
-ssh-keygen -t rsa -b 4096 -C "julian_toscani@gmx.de"  
-eval "\$(ssh-agent -s)"  
-nano ~/.ssh/config
-
-dort eingeben:  
-Host \*
-AddKeysToAgent yes
-UseKeychain yes
-IdentityFile ~/.ssh/id_rsa
-sh-add -K ~/.ssh/id_rsa
-
-Public Key ausgeben:  
-cat id_rsa.pub
-(dieser muss dann für jedes Gerät auf dem Server oder dem GitHub Profil hinterlegt werden.)
+![Bild des WorkFlows](/resources/gitWorkflow.jpg)
 
 ## Befehle
 
-- `ls` um liste aufzurufen (was befindet sich im Verzeichnis?)
-- `cd` (change directory) verzeichnis wechseln
-- `cd ..` ein Verzeichnis zurück
-- `mkdir` neues Verzeichnis erstellen
-- `git clone "Repo Link"` Repository runterladen
-
-[
+| Command              | Use                                           |
+| -------------------- | --------------------------------------------- |
+| `add`                | Repo der Stage hinzufügen                     |
+| `commit -m`          | Repo der Stage commiten                       |
+| `commit -a -m`       | Repo der Stage hinzufügen und direkt comitten |
+| `push origin master` | Commit in den Master des gitHub pushen        |
