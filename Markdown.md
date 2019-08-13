@@ -21,7 +21,18 @@ _lorem_         "Schrift kursiv"
 -   "geordnete Liste"
 1.  "ungeordnete Liste"
   - "doppelt einrücken für nächste Ebene"
+```
+
+### Links
+
+```Markdown
 [git](#gitpush)  "in einem Dokument auf die Überschrift "git push" verlinken"
+() "Link auf Seite einfügen und Linkbar machen"
+[] "Text im Dokument als Link darstellen"
+[] im text + []: "www.xyz.de"; "Referenz link im Document einfügen. Ist nicht sichtbar!"
+![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png) "Ein Bild einfügen"
+Logik: "!" + "Alternative Bezeichnung (Text)" + "Link zum Bild"
+- ">" Block Quote einstellen
 ```
 
 ### Source Code

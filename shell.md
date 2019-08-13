@@ -1,3 +1,10 @@
+# Terminal Shell Commands
+
+## Ressources
+
+1. [Sich bewegen und Dateien Manipulieren](https://www.codecademy.com/learn/learn-the-command-line)
+1.
+
 ### SSH-Key erstellen
 
 ssh-keygen -t rsa -b 4096 -C "julian_toscani@gmx.de"  
