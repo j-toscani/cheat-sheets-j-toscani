@@ -27,13 +27,24 @@ _lorem_         "Schrift kursiv"
 
 ```Markdown
 [git](#gitpush)  "in einem Dokument auf die Überschrift "git push" verlinken"
+```
+
+```Markdown
 () "Link auf Seite einfügen und Linkbar machen"
 [] "Text im Dokument als Link darstellen"
 [] im text + []: "www.xyz.de"; "Referenz link im Document einfügen. Ist nicht sichtbar!"
+```
+
+```Markdown
 ![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png) "Ein Bild einfügen"
 Logik: "!" + "Alternative Bezeichnung (Text)" + "Link zum Bild"
+```
+
+```Markdown
 - ">" Block Quote einstellen
 ```
+
+> This is what a Block Quote looks like :)
 
 ### Source Code
 
