@@ -22,6 +22,12 @@
 
 ![Bild des WorkFlows](/resources/gitWorkflow.jpg)
 
+#### Neuen Branch erstellen
+
+1. `git checkout -b [BranchName]` Neuen Branch erstellen und dahin wechseln
+1. `git commit -a -m "[ChangeDescription]"` Änderungen comitten
+1. `git push --set-upstream origin [BranchName]`Branch ins Git pushen
+
 ## Befehle
 
 | Command                                | Use                                           |
