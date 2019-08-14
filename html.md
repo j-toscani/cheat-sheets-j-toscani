@@ -73,4 +73,28 @@ In HTML
 
 ### Einbinden von Medien
 
+| Command     | Use | Explanation |
+| ----------- | --- | ----------- |
+| `<source>`  | In  |             |
+| `<picture>` | In  |             |
+| `<img>`     | In  |             |
+| `<audio>`   | In  |             |
+| `<video>`   | In  |             |
+
+[MDN: Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source)
+
 ### Einbinden von Input und Formularen
+
+#### `<Input>`
+
+| Input Type  | Use | Explanation |
+| ----------- | --- | ----------- |
+| `<source>`  | In  |             |
+| `<picture>` | In  |             |
+| `<img>`     | In  |             |
+| `<audio>`   | In  |             |
+| `<video>`   | In  |             |
+
+[MDN: Input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+
+#### `<Form>`
