@@ -7,12 +7,16 @@
 
 ## Prozesse
 
+### Best Practise
+
+1. Kleinteilig committen damit die Messages klar definieren, was commited wurde.
+
 ### Arbeitsphasen
 
 1. Lokal
    1. In VSCode speichern
    1. In der Stage speichern
-   1. In den Baum committen
+   1. In den Baum commiten
 1. Online
    1. Auf GitHub pushen
 
@@ -22,7 +26,8 @@
 
 | Command              | Use                                           |
 | -------------------- | --------------------------------------------- |
-| `add`                | Repo der Stage hinzufügen                     |
+| `add .`              | Komplettes Repo der Stage hinzufügen          |
+| `add [Dateienname]`  | Nur Änderungen einer datei adden              |
 | `commit -m`          | Repo der Stage commiten                       |
 | `commit -a -m`       | Repo der Stage hinzufügen und direkt comitten |
 | `push origin master` | Commit in den Master des gitHub pushen        |
