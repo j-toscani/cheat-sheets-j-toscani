@@ -16,6 +16,31 @@
 
 ![Element Struktur](/resources/html_element-structure.png)
 
+#### Hausaufgabe:
+
+- Wann aside innerhalb von article, wann außerhalb?
+  - Soll der Inhalt neben dem Artikel stehen, dann außerhalb. Soll es im Artikel stehen, dann innerhalb.
+- Was kommt in main rein? Wie oft darf man main pro Seite verwenden?
+  - Es darf nur einmal genutzt werden. Beschreibt den Hauptinhalt des Dokuments. Hat starke, semantische Wirkung.
+- Wann ist div geeigneter als section?
+  - asd
+- Wann verwendet man b und wann strong? Wann i und wann em?
+  - asd
+- Wie baut man eine figure mit einem Bild und Text auf?
+  - asd
+- Wofür steht dl, dd und dt
+  - asd
+- Was sind 3 void Elemente, die du kennst?
+  - asd
+- Wofür wird small verwendet?
+  - asd
+- Was ist der Unterschied zwischen dem img- und dem picture-Element?
+  - asd
+- Welche 5 input-types kennst du neben <input type="text">?
+  - asd
+- Was macht man mit select und option?
+  - asd
+
 ## Befehle
 
 ### Struktur und Semantik
