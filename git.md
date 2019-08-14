@@ -37,5 +37,5 @@
 | `commit -m`                            | Repo der Stage commiten                       |
 | `commit -a -m`                         | Repo der Stage hinzufügen und direkt comitten |
 | `push origin master`                   | Commit in den Master des gitHub pushen        |
-| `branch BranchName`                    | Branch erstellen                              |
+| `branch [BranchName]`                  | Branch erstellen                              |
 | `push --setupstream origin BranchName` | Commit in einen Branch des gitHub pushen      |
