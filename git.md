@@ -3,6 +3,7 @@
 ## Ressources
 
 1. [Einfach Einstieg in Git](https://rogerdudler.github.io/git-guide/index.de.html)
+1. [Lernspiel (Terminus)](http://web.mit.edu/mprat/Public/web/Terminus/Web/main.html)
 
 ## Prozesse
 
