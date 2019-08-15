@@ -24,8 +24,8 @@
 
 #### Neues Repository erstellen
 
-1. `mkdir`in der Konsole einen neuen Ordner erstellen
-1. `init`um das Repo zu initialisieren
+1. `mkdir` in der Konsole einen neuen Ordner erstellen
+1. `init` um das Repo zu initialisieren
 1. Auf [github.com](http:\www.github.com) neues Repository anklicken und den Anweisungen folgen
 1. Dateien erstellen und ersten commit mit "first commit" kommentieren.
 
