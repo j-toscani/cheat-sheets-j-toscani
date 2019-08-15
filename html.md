@@ -20,11 +20,11 @@
 #### Hausaufgabe:
 
 - Wann aside innerhalb von article, wann außerhalb?
-  - Soll der Inhalt neben dem Artikel stehen, dann außerhalb. Soll es im Artikel stehen, dann innerhalb.
+  - Innerhalb des Artikels ist eine Nebeninformation zum Artikel. Außerhalb, eine Nebeninformation zum Gesamtinhalt. `<aside>` ist ein reinsemantischer Tag. [More Info](http://html5doctor.com/aside-revisited/)
 - Was kommt in main rein? Wie oft darf man main pro Seite verwenden?
   - Es darf nur einmal genutzt werden. Beschreibt den Hauptinhalt des Dokuments. Hat starke, semantische Wirkung.
 - Wann ist div geeigneter als section?
-  - Wenn ein Abschnitt markiert werden muss, der nicht wirklich ein anderer Abschnitt ist, sondern nur anders via CSS gestyled wird
+  - Wenn ein Abschnitt markiert werden muss, der nicht wirklich ein anderer Abschnitt ist, sondern nur anders via CSS gestyled wird. Section hat darüber hinaus eine semantische Wirkung, div nicht. [More info](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section#Usage_notes)
 - Wann verwendet man b und wann strong? Wann i und wann emphasis?
   - i und b sind nur da um das Design zu ändern. strong und emphasis wenn die Wörter hervorgehoben werden, weil sie eine semantische beduetung für den Inhalt der Seite haben
 - Wie baut man eine figure mit einem Bild und Text auf?
@@ -41,7 +41,7 @@
   - `dt` = Description Term-> Definiert das Wort, dass beschrieben werden soll
   - `dd` = description detail-> fügt dem Wort weitere Detailinformationen hinzu (Beschreibung, Übersetzung, Erklärung etc.)
 - Was sind 3 void Elemente, die du kennst?
-  - img, link, input
+  - img, link, input; Benötigen keinen closing Tag. [More Info](https://html.spec.whatwg.org/dev/syntax.html#void-elements)
 - Wofür wird small verwendet?
   - Verringert die Schriftgröße eines Textes um 1
     - _Hat das auch eine semantische Wirkung?_
