@@ -25,9 +25,11 @@
 #### Neues Repository erstellen
 
 1. `mkdir` in der Konsole einen neuen Ordner erstellen
-1. `init` um das Repo zu initialisieren
+1. `cd [NewFolder]` in den neuen Ordner wechseln
+1. `git init` um das Repo zu initialisieren
 1. Auf [github.com](http:\www.github.com) neues Repository anklicken und den Anweisungen folgen
-1. Dateien erstellen und ersten commit mit "first commit" kommentieren.
+1. Dateien erstellen, einzeln via `git add [NewFile]` adden
+1. Ersten commit mit "first commit" kommentieren.
 
 #### Neuen Branch erstellen
 
@@ -37,12 +39,12 @@
 
 ## Befehle
 
-| Command                                | Use                                           |
-| -------------------------------------- | --------------------------------------------- |
-| `add .`                                | Komplettes Repo der Stage hinzufügen          |
-| `add [Dateienname]`                    | Nur Änderungen einer datei adden              |
-| `commit -m`                            | Repo der Stage commiten                       |
-| `commit -a -m`                         | Repo der Stage hinzufügen und direkt comitten |
-| `push origin master`                   | Commit in den Master des gitHub pushen        |
-| `branch [BranchName]`                  | Branch erstellen                              |
-| `push --setupstream origin BranchName` | Commit in einen Branch des gitHub pushen      |
+| Command                     | Use                                           |
+| --------------------------- | --------------------------------------------- |
+| `add .`                     | Komplettes Repo der Stage hinzufügen          |
+| `add [Dateienname]`         | Nur Änderungen einer datei adden              |
+| `commit -m`                 | Repo der Stage commiten                       |
+| `commit -a -m`              | Repo der Stage hinzufügen und direkt comitten |
+| `push origin master`        | Commit in den Master des gitHub pushen        |
+| `branch [BranchName]`       | Branch erstellen                              |
+| `push -u origin BranchName` | Commit in einen Branch des gitHub pushen      |
