@@ -63,9 +63,9 @@ Hier einmal Beispielhaft + Kommentaren:
 
 #### Befehle um die Items anzuordnen
 
-                __justify-content:__
-
 Dieser Befehl bezieht sich nur auf die horizontale Ebene!
+
+`justify-content:`
 
 | Command         | Use                                              |
 | --------------- | ------------------------------------------------ |
@@ -77,12 +77,13 @@ Dieser Befehl bezieht sich nur auf die horizontale Ebene!
 
 #### Befehle um die Größen anzupassen
 
-| Command          | Use                                                                                    |
-| ---------------- | -------------------------------------------------------------------------------------- |
-| `npx`            | n-pixel, absolute Größe                                                                |
-| `nvh` oder `nvw` | n% der maximalen Höhe oder Breite des verwendeten Geräts (z.B. Smartphone oder Tablet) |
-| `n%`             | legt die größe auf n% der größe des Elternelements fest                                |
-| `nem`            | das n-fache der Schriftgröße                                                           |
+| Command          | Use                                                                                                                                                                                                      |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `npx`            | n-pixel, absolute Größe                                                                                                                                                                                  |
+| `nvh` oder `nvw` | n% der maximalen Höhe oder Breite des verwendeten Geräts (z.B. Smartphone oder Tablet)                                                                                                                   |
+| `n%`             | legt die größe auf n% der größe des Elternelements fest                                                                                                                                                  |
+| `n%`             | legt die größe auf n% der größe des Elternelements fest                                                                                                                                                  |
+| `flex:n`         | gibt einem Element die n-te Menge des restlichen Platzes. Stehen sich zwei `flex`-attribute gegenüber, so wird der "Restplatz" im entsprechenden Verhältnis aufgeteilt. Ähnlich wie `col` bei Bootstrap. |
 
 #### Befehle um
 
