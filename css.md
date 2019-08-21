@@ -45,6 +45,8 @@ Selektoren werden verwendet um gezielt einzelne Elemente anzusteuern und diese S
 
 Über Flexbox kann man in CSS responsive-Websites erstellen. Der Grundgedanke ist, dass man einen Bereich hat, in dem unterschiedliche, voneinander unterscheidbare Elemente sind die man ordnen will. Diese nennt man Items. Man hat die Möglichkeit, diese Elemente entweder horizontal oder vertikal anzuordnen.
 
+**Add: Flex-Flow**
+
 Hier einmal Beispielhaft + Kommentaren:
 
 ```CSS
@@ -81,13 +83,32 @@ Dieser Befehl bezieht sich nur auf die horizontale Ebene!
 
 ### Grid
 
-| Command         | Use                                              |
-| --------------- | ------------------------------------------------ |
-| `flex-start`    | Setzt alle Elemente an den Anfang des Containers |
-| `flex-end`      | Setzt alle Elemente an das Ende des Containers   |
-| `center`        | Setzt alle Elemente in die Mitte des containers  |
-| `space-between` | Gleicht die Abstände zwischen den items an       |
-| `space-around`  | gleicht den Abstand um die items an              |
+Grid definiert eine festes "Grid-System" mit gleich großen Bereichen. Man kann es wie folgt definieren:
+
+```CSS
+body {
+display:Grid;
+width: 100vh;
+height: 100vw;
+grid-template-columns: 20% 20% 20% 20% 20%;
+grid-template-rows: 20% 20% 20% 20% 20%;
+}
+```
+
+Das Commando oben erstellt ein Grid mit fünf gleich großen Spalten und fünf gleich großen Zeilen. Die Tabelle erstreckt sich über den kompletten Viewport. Anstatt von Prozentwerten können auch `px`-Angaben und `fr`-Angaben gemacht werden. `fr`-Angaben teilen den Rest-Bereich in "Fraktionen" ein. `2fr` und `3fr` teilt den Restbereich in 5 Fraktionen auf.
+
+| Command                 | Use                                                                     |
+| ----------------------- | ----------------------------------------------------------------------- |
+| `grid-template-columns` | Setzt Anzahl und größe der Spalten fest                                 |
+| `grid-template-row`     | Setzt Anzahl und größe der Reihen fest                                  |
+| `grid-template`         | Vereinigt `grid-template-row` & `grid-template-columns` in einen Befehl |
+
+| Command                     | Use                                                |
+| --------------------------- | -------------------------------------------------- |
+| `grid-column-start`         | Setzt alle Elemente an den Anfang des Containers   |
+| `grid-column-end`           | Setzt alle Elemente an den Anfang des Containers   |
+| `grid-column-start: span x` | Setzt alle Elemente an den Anfang des Containers   |
+| `grid-area: x / y`          | kombiniert `grid-column-start` & `grid-column-end` |
 
 ### Befehle um die Größen anzupassen
 
