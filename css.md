@@ -4,6 +4,10 @@
 
 1. [CSS - Tricks](https://css-tricks.com/)
 1. [CSS - Spiel um Selektoren kennenzulernen](https://flukeout.github.io/)
+1. [Hilfe um Farbschemata anzupassen](https://coolors.co/browser/best/1)
+1. [Grid vs Flex](https://hackernoon.com/the-ultimate-css-battle-grid-vs-flexbox-d40da0449faf)
+   1. [CSS Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference)
+   1. [CSS References](https://cssreference.io/)
 
 ## Allgemeines
 
@@ -75,7 +79,17 @@ Dieser Befehl bezieht sich nur auf die horizontale Ebene!
 | `space-between` | Gleicht die Abstände zwischen den items an       |
 | `space-around`  | gleicht den Abstand um die items an              |
 
-#### Befehle um die Größen anzupassen
+### Grid
+
+| Command         | Use                                              |
+| --------------- | ------------------------------------------------ |
+| `flex-start`    | Setzt alle Elemente an den Anfang des Containers |
+| `flex-end`      | Setzt alle Elemente an das Ende des Containers   |
+| `center`        | Setzt alle Elemente in die Mitte des containers  |
+| `space-between` | Gleicht die Abstände zwischen den items an       |
+| `space-around`  | gleicht den Abstand um die items an              |
+
+### Befehle um die Größen anzupassen
 
 | Command          | Use                                                                                                                                                                                                      |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -84,6 +98,14 @@ Dieser Befehl bezieht sich nur auf die horizontale Ebene!
 | `n%`             | legt die größe auf n% der größe des Elternelements fest                                                                                                                                                  |
 | `n%`             | legt die größe auf n% der größe des Elternelements fest                                                                                                                                                  |
 | `flex:n`         | gibt einem Element die n-te Menge des restlichen Platzes. Stehen sich zwei `flex`-attribute gegenüber, so wird der "Restplatz" im entsprechenden Verhältnis aufgeteilt. Ähnlich wie `col` bei Bootstrap. |
+
+### Befehle für Schriftgrößen
+
+| Command | Use                                                                                    |
+| ------- | -------------------------------------------------------------------------------------- |
+| `px`    | Absolute Schriftgröße                                                                  |
+| `em`    | Relative Schriftgröße auf Basis der Schriftgröße die im Elternelement definiert wurde. |
+| `rem`   | Relative Schriftgröße auf Basis der "Root-Schriftgröße"                                |
 
 #### Befehle um
 
