@@ -6,8 +6,8 @@
 1. [CSS - Spiel um Selektoren kennenzulernen](https://flukeout.github.io/)
 1. [Hilfe um Farbschemata anzupassen](https://coolors.co/browser/best/1)
 1. [Grid vs Flex](https://hackernoon.com/the-ultimate-css-battle-grid-vs-flexbox-d40da0449faf)
-   1. [CSS Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference)
-   1. [CSS References](https://cssreference.io/)
+   - [CSS Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference)
+   - [CSS References](https://cssreference.io/)
 
 ## Allgemeines
 
