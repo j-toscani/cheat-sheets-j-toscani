@@ -135,3 +135,13 @@ Das Commando oben erstellt ein Grid mit fünf gleich großen Spalten und fünf g
 | Command              | Use                |
 | -------------------- | ------------------ |
 | `komplexere Befehle` | komplexerer Befehl |
+
+## SCSS - CSS nach der Uni
+
+### Was kann CSS mehr?
+
+### Setting up SCSS und was man jedesmal eingeben muss
+
+- SCSS input datei erstellen
+- Befehl `sass --watch input.scss output.css`im richtigen Ordner und im richtigen repository & branch eingeben.
+- In SCSS-Input Datei Styling anpassen
