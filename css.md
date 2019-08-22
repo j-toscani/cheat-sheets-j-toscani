@@ -138,6 +138,8 @@ Das Commando oben erstellt ein Grid mit fünf gleich großen Spalten und fünf g
 
 ## SCSS - CSS nach der Uni
 
+[SASS-Intro](https://sass-lang.com/guide)
+
 ### Was kann CSS mehr?
 
 ### Setting up SCSS und was man jedesmal eingeben muss
