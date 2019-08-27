@@ -3,6 +3,9 @@
 ## Ressource
 
 1. [Introduction to JS](http://javascript.info/)
+1. [MDN JS Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+1. [Is a feature supported by a Browser?](https://caniuse.com/#tables)
+1. [Operatoren und ihre Hierarchie](http://javascript.info/operators)
 
 ## The Basics
 
@@ -33,6 +36,22 @@ Oft läuft es so ab, dass man eine Funktion bei eintreten eines Events aufruft. 
 - JS hat functionen und Operatoren, die variablen selbstständig verändern, daher **VORSICHT**.
 
 ### Functions
+
+In JavaScript sieht eine funktion wie folgt aus:
+
+```JS
+function outPut(days) {
+  caloriesMean = 2000;
+  caloriesSum = calories * days;
+  console.log(caloriesSum);
+}
+
+outPut(5);
+```
+
+Als erstes wird eine Funktion definiert. Damit bekommt sie als erstes einen Namen und kann optional von einer Variable abhängig gemacht werden. In der Funktion (umschlossen von den "{}") wird dann definiert, was geschehen soll.
+
+Ruft man die Funktion auf, nachdem sie definiert wurde, spuckt sie einen Wert aus. Die Funktion oben rechnet aus, wie viele Kalorien insgesamt aufgenommen werden. Zum abschluss der Funktion wird das Ergebnis dann in der Console ausgegeben.
 
 ### Events
 
