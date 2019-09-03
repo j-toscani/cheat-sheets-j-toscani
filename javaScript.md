@@ -100,3 +100,26 @@ function logInput() {
 Das DOM ist ein browserseitiges Document, was es ermöglicht auf die HTML-Struktur zuzugreifen. Dabei kann man entweder über Klassen (z.B `.container`) id s (z.B. `#navElement`) oder direkt auf Strukturelemente zurückgegriffen werden.
 
 Letzteres ist recht kompliziert. Dazu müssen die unterpunkte einzelnd aufgeführt und mit punkten verbuden werden. Aus diesem Grund werden oft Variablen generiert, um diese Elemente anzusteuern ([more](http://javascript.info/dom-navigation)).
+
+### Array
+
+Ein Array ist eine Liste auf die man zugreifen kann. Sie wird wie folgt definiert:
+
+```JS
+arrayName [
+  el1, el2, el3 ...
+]
+
+arrayNameObjects [
+  { name: ,
+    Date: ,
+    height: ,},
+    {
+    name: ,
+    Date: ,
+    height: ,
+    }
+]
+```
+
+Neben einzelnen Elementen können auch Objekte in ein Array überführt werden. Dabei können diese Arrays sogar verschachtelt werden [more Info](https://www.monterail.com/blog/how-to-index-objects-elasticsearch).
