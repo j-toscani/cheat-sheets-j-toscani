@@ -7,7 +7,7 @@
 
 ### SSH-Key erstellen
 
-ssh-keygen -t rsa -b 4096 -C "julian_toscani@gmx.de"  
+ssh-keygen -t rsa -b 4096 -C <email>  
 eval "\$(ssh-agent -s)"  
 nano ~/.ssh/config
 
