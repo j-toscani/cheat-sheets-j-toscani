@@ -84,3 +84,5 @@ To github.com:neuefische/sushi-app.git
 | `push origin master`        | Commit in den Master des gitHub pushen        |
 | `branch [BranchName]`       | Branch erstellen                              |
 | `push -u origin BranchName` | Commit in einen Branch des gitHub pushen      |
+| `git diff <hash-from>..<hash-to> -- ./foo-folder` | Einen Ordner mit einem älteren Stand vergleichen |
+| `git checkout <hash> -- ./foo-folder` | Einen Ordner auf einen älteren Stand zurücksetzen |
